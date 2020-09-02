@@ -1,0 +1,75 @@
+﻿@page
+@model UnitedYouthOrchestra7.Pages.SchoolyearPage.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Schoolyear</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Schoolyear.Id" />
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year6orEarlier" /> @Html.DisplayNameFor(model => model.Schoolyear.Year6orEarlier)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year7" /> @Html.DisplayNameFor(model => model.Schoolyear.Year7)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year8" /> @Html.DisplayNameFor(model => model.Schoolyear.Year8)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year9" /> @Html.DisplayNameFor(model => model.Schoolyear.Year9)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year10" /> @Html.DisplayNameFor(model => model.Schoolyear.Year10)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year11" /> @Html.DisplayNameFor(model => model.Schoolyear.Year11)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year12" /> @Html.DisplayNameFor(model => model.Schoolyear.Year12)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Year13" /> @Html.DisplayNameFor(model => model.Schoolyear.Year13)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Schoolyear.Other" /> @Html.DisplayNameFor(model => model.Schoolyear.Other)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
