@@ -11,7 +11,6 @@
     <None Include="wwwroot\images\Oct2019d.jpg" />
     <None Include="wwwroot\images\Oct2019e.jpg" />
     <None Include="wwwroot\images\PosterSept2020.jpg" />
-    <None Include="wwwroot\images\United Youth Orchestra Poster 2020.pdf" />
   </ItemGroup>
 
   <ItemGroup>
