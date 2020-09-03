@@ -2,14 +2,14 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
 }
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #BFDCAE;
+  color: #BFECAE;
 }
 
 .btn-primary {
@@ -27,19 +27,19 @@ a {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 .border-top {
-    border-top: 2px solid #F6F6F6;
+  border-top: 2px solid #e5e5e5;
 }
 .border-bottom {
-    border-bottom: 2px solid #F6F6F6;
+  border-bottom: 2px solid #e5e5e5;
 }
 
 .box-shadow {
