@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace UnitedYouthOrchestra7.Pages.Policy
 {
-    public class PrivacyModel : PageModel
+    public class PolicyModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<PolicyModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public PolicyModel(ILogger<PolicyModel> logger)
         {
             _logger = logger;
         }
