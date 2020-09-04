@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace UnitedYouthOrchestra7.Pages
+namespace UnitedYouthOrchestra7.Pages.Policy
 {
     public class PrivacyModel : PageModel
     {
