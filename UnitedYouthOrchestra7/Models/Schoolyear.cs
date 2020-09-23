@@ -7,6 +7,7 @@ namespace UnitedYouthOrchestra7.Models
 {
     public class Schoolyear
     {
+        // ID from No.6 to show exact school year
         public int Id { get; set; }
         public bool Year6orEarlier { get; set; }
         public bool Year7 { get; set; }

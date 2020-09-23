@@ -10,6 +10,7 @@ namespace UnitedYouthOrchestra7.Models
 {
     public class Member
     {
+        // ID, members full name, telephone number, email address, DOB, music instrument
         public int Id { get; set; }
         public string Name { get; set; }
         public int Telephone { get; set; } = 0;
