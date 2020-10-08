@@ -7,8 +7,9 @@ namespace UnitedYouthOrchestra7.Models
 {
     public class Instrument
     {
-        // ID and instrument name
+        // This is the key
         public int Id { get; set; }
+        // Instrument name
         public string instrument { get; set; }
 
     }
